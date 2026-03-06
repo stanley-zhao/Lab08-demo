@@ -3,8 +3,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CustomListTest {
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
     @Test
     public void testHasCity() {
+
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
