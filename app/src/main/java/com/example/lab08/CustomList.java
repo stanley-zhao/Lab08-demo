@@ -18,20 +18,20 @@ public class CustomList {
         return cities.contains(city);
     }
 
-    // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
-//    /**
-//     * This delete the city from the list if exists, otherwise throw an exception
-//     */
-//    public void delete(City city) {
-//        if(hasCity(city)){
-//            //
-//            cities.remove(city);
-//        }else{
-//            throw new NoSuchElementException();
-//        }
-//    }
-//
+    /** Will be implemented later using TDD (leave blank for now)
+     public boolean hasCity(City city) { ... }
+    /**
+     * This delete the city from the list if exists, otherwise throw an exception
+     */
+    public void delete(City city) {
+        if(hasCity(city)){
+            //
+            cities.remove(city);
+        }else{
+            throw new NoSuchElementException();
+        }
+    }
+
 //    /**
 //     * return number of cities in the list
 //     * @return number of cities in the list
