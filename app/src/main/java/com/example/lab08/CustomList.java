@@ -10,7 +10,6 @@ public class CustomList {
     public CustomList() {
         this.cities = new ArrayList<>();
     }
-
     public void addCity(City city) {
         cities.add(city);
     }
@@ -26,6 +25,7 @@ public class CustomList {
      */
     public void delete(City city) {
         if(hasCity(city)){
+            //
             cities.remove(city);
         }else{
             throw new NoSuchElementException();
